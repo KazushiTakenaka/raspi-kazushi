@@ -9,4 +9,4 @@ while True:
     print("celsius:    {0:.3f}".format(temperature_in_celsius))
     print("fahrenheit: {0:.3f}".format(temperature_in_fahrenheit))
 
-    time.sleep(5.0)
+    time.sleep(10.0)

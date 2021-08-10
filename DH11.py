@@ -3,7 +3,7 @@ from time import sleep
 from DHT11_Python import dht11 # 温湿度センサーモジュール
 
 TEMP_SENSOR_PIN = 4 # 温湿度センサーのピンの番号
-INTERVAL = 60 # 監視間隔（秒）
+INTERVAL = 3600 # 監視間隔（秒）
 RETRY_TIME = 2 # dht11から値が取得できなかった時のリトライまので秒数
 MAX_RETRY = 20 # dht11から温湿度が取得できなかった時の最大リトライ回数
 

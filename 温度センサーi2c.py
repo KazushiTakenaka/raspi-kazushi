@@ -20,7 +20,7 @@ try:
     while True:
         inputValue = read_adt7410()
         print(inputValue)
-        sleep(0.5)
+        sleep(60)
 
 except KeyboardInterrupt:
     pass
